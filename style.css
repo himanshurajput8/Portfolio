@@ -1,0 +1,322 @@
+:root {
+  --orange: rgb(255, 165, 0);
+  --black: rgb(13, 27, 42);
+  --white: rgb(255, 255, 255);
+  --blue: rgb(0, 0, 255);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* padding: 60px; */
+  background-color: rgb(3 38 70);
+}
+
+.container { 
+  background: rgb(177,185,179);
+  background: linear-gradient(90deg, rgba(177,185,179,0.524422268907563) 0%, rgba(80,75,87,0.4095763305322129) 10%, rgba(91,89,86,1) 100%);
+  padding: 30px;
+  position: relative;   
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+.header-name {
+  font-weight: 600px;
+  font-size: larger;
+  color: var(--white);
+
+}
+
+.header-name::first-letter {
+  color: var(--orange);
+  font-size: 3rem;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-list li {
+  list-style-type: none;
+  margin: 16px 64px 16px 0px;
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.header-btn button {
+  background-color: var(--orange);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.header-btn button:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+/* introduction code */
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;  
+
+}
+
+.intro-name {
+  display: flex;
+  flex-direction: column;  
+
+}
+
+.intro-name>:nth-child(1) {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--white);
+
+}
+
+.intro-name>:nth-child(2) {
+  font-size: 3rem;
+  font-weight: 800px;
+  color: var(--orange);
+}
+
+.intro-name>:nth-child(3) {
+  font-size: 1.5rem;
+  font-weight: 400px;
+  color: var(--white);
+  margin-top: 30px;
+  
+}
+
+.intro-icon i {
+  font-size: 30px;
+  margin-top: 20px;
+  color: var(--orange);
+  margin: 30px 10px;
+}
+
+.intro-details p {
+  color: var(--white);
+
+}
+
+.intro-details>:nth-child(1) {
+  margin: 10px 0px 10px 0px;
+}
+
+.intro-details>:nth-child(3) {
+  margin-top: 20px;
+  
+}
+
+.intro-details>:nth-child(4) {
+  margin-top: 10px;
+}
+
+.intro-details strong {
+  color: var(--orange);
+}
+
+/* skills code */
+.skills-heading {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  
+
+}
+.skills-heading h2{
+  color: var(--white);
+  font-size: 3rem;
+  border-bottom: 5px solid var(--orange);
+}
+.skills-heading h2::first-letter{
+  color: var(--orange);
+  font-size: 5rem;
+ 
+}
+
+.skills-icon-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.skills-icon-container img {
+  width: 80px;
+  padding-top: 25px;
+}
+
+.skills-img-icon {
+  width: 170px;
+  height: 170px;  
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(177,185,179,0.524422268907563) 0%, rgba(80,75,87,0.4095763305322129) 10%, rgba(91,89,86,1) 100%);
+
+
+
+}
+
+.skills-img-icon:hover {
+  border-radius: 5%;
+  background-color: var(--orange);
+
+}
+
+/* project code */
+#project-full-container {
+  display: inline-flex;  
+  padding-top: 30px;
+}
+
+.project-heading h2{
+  color: var(--white);
+  font-size: 3rem;
+  border-bottom: 5px solid var(--orange);
+}
+.project-heading h2::first-letter{
+  color: var(--orange);
+  font-size: 5rem;
+}
+
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  padding-top: 30px;
+  padding: 30px;
+  gap: 8%;
+
+}
+
+.project-project-box {
+  width: 300px;
+  height: 350px;
+  /* border: 5px solid rgb(247 223 30); */
+  border-radius: 10px;
+  margin-left: 50%;
+  background: rgb(177,185,179);
+  background: linear-gradient(90deg, rgba(177,185,179,0.524422268907563) 0%, rgba(80,75,87,0.4095763305322129) 10%, rgba(91,89,86,1) 100%);
+  
+}
+.project-project-box:hover{
+  transform: rotate(20deg);
+
+}
+
+
+.project-project-box img {
+  width: 290px;
+  height: 160px;
+  padding: 10px;
+}
+
+.project-project-box h3 {
+  color: var(--orange);
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+.project-project-box p {
+  color: var(--white);
+  padding: 10px;
+
+}
+
+.project-container button{
+  margin: 10px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+  color: var(--white);  
+  font-weight: bold;
+  background-color: var(--orange);
+}
+
+
+/* form code */
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+
+}
+
+.form-right-div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.form-input {
+  padding: 10px;  
+  width: 450px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+ background-color: var(--white);
+
+}
+
+.form-input::placeholder {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 18px; 
+
+}
+.form-left-div h2{
+  color: var(--white);
+  font-size: 3rem;
+  padding-top: 30px;
+  border-bottom: 5px solid var(--orange);
+}
+
+.form-left-div h2::first-letter{
+  color: var(--orange);
+  font-size: 5rem;
+}
+
+input[type="submit"]{
+  background-color: var(--orange);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column; 
+  padding-top: 100px;
+  border-radius: 10px;
+  
+  
+}
+.footer-email span{ 
+  color: var(--orange);
+  font-size: 1.5rem;
+}
