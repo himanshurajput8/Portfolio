@@ -21,8 +21,8 @@ export function renderIntroduction(){
             word. feel free to reach out-together, we'll write a new chapter in the cosmic web</p>
     </span>
     <div class="intro-icon">
-        <span class="linkdin"><i class="fa-brands fa-linkedin"></i></span> 
-        <span><i class="fa-brands fa-github"></i></span>
+        <span class="linkdin"><a href="https://www.linkedin.com/feed/" target="blank"><i class="fa-brands fa-linkedin"></i></a></span> 
+        <span><a href="https://github.com/" target="blank"><i class="fa-brands fa-github"></i></a></span>
         <span><i class="fa-brands fa-twitter"></i></span>
     </div>
 </div>

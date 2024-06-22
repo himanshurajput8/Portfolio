@@ -5,7 +5,7 @@ const formTempelate = `
         <div class="form-left-div">
             <div><span><h2>Contact Me !</h2></span></div>
         </div>
-        <form>
+        <form id="form-container">
             <div class="form-right-div">
                 
                     <input class="form-input" type="text" placeholder="Name">

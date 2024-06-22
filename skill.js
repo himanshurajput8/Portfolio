@@ -2,7 +2,7 @@ export function renderSkills(){
 const  skillsTempelate = `
 
 <div class="container">
-<div class="skills-heading">
+<div class="skills-heading" id="skills">
   <div><span><h2>My Skills !</h2></span></div> 
 </div>
 <div class="skill-container">
@@ -19,7 +19,7 @@ const  skillsTempelate = `
     
   </div>
 
-  <div class=skills-icon-container>
+  <div class=skills-icon-container id="skills">
     <div class="skills-img-icon"><img src="image/git-logo.svg">
       <h2>Git</h2>
     </div>

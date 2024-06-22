@@ -47,6 +47,10 @@ header {
   display: flex;
 }
 
+.header-list a {
+  text-decoration: none;
+}
+
 .header-list li {
   list-style-type: none;
   margin: 16px 64px 16px 0px;
@@ -193,6 +197,7 @@ header {
   color: var(--white);
   font-size: 3rem;
   border-bottom: 5px solid var(--orange);
+  margin-left: 100px;
 }
 .project-heading h2::first-letter{
   color: var(--orange);

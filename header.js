@@ -9,10 +9,10 @@ export function renderHeader() {
         <a>
             <li>Home</li>
         </a>
-        <a>
+        <a href="#project">
             <li>Project</li>
         </a>
-        <a>
+        <a href="#skills">
             <li>Skills</li>
         </a>
         <a>
@@ -20,7 +20,8 @@ export function renderHeader() {
         </a>
     </ul>
 </div>
-<div class="header-btn"><button>Contact Me</button></div>
+<a href="#form-container"><div class="header-btn"><button>Contact Me</button></div></a>
+
 </header></div> `
 document.body.innerHTML += headerTemplate
 }
