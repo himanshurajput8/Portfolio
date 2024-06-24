@@ -3,9 +3,14 @@ const formTempelate = `
 <div class="container">
     <div class="form-container">
         <div class="form-left-div">
-            <div><span><h2>Contact Me !</h2></span></div>
+            <div id="form-container">
+                <span>
+                    <h2>Contact Me !</h2>
+                </span>
+            </div>
         </div>
-        <form id="form-container">
+
+        <form >
             <div class="form-right-div">
                 
                     <input class="form-input" type="text" placeholder="Name">
@@ -18,4 +23,5 @@ const formTempelate = `
     </div>
 </div>`
 document.body.innerHTML += formTempelate 
-}
+} 
+

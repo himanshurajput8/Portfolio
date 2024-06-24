@@ -16,11 +16,11 @@ body {
   background-color: rgb(3 38 70);
 }
 
-.container { 
-  background: rgb(177,185,179);
-  background: linear-gradient(90deg, rgba(177,185,179,0.524422268907563) 0%, rgba(80,75,87,0.4095763305322129) 10%, rgba(91,89,86,1) 100%);
+.container {
+  background: rgb(177, 185, 179);
+  background: linear-gradient(90deg, rgba(177, 185, 179, 0.524422268907563) 0%, rgba(80, 75, 87, 0.4095763305322129) 10%, rgba(91, 89, 86, 1) 100%);
   padding: 30px;
-  position: relative;   
+  position: relative;
 }
 
 header {
@@ -28,7 +28,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  
+
 }
 
 .header-name {
@@ -78,13 +78,13 @@ header {
 .introduction {
   display: flex;
   justify-content: space-between;
-  padding-top: 80px;  
+  padding-top: 80px;
 
 }
 
 .intro-name {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 
 }
 
@@ -106,7 +106,7 @@ header {
   font-weight: 400px;
   color: var(--white);
   margin-top: 30px;
-  
+
 }
 
 .intro-icon i {
@@ -127,7 +127,7 @@ header {
 
 .intro-details>:nth-child(3) {
   margin-top: 20px;
-  
+
 }
 
 .intro-details>:nth-child(4) {
@@ -143,18 +143,22 @@ header {
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
-  
+
 
 }
-.skills-heading h2{
+
+.skills-heading h2 {
   color: var(--white);
   font-size: 3rem;
   border-bottom: 5px solid var(--orange);
+  border-radius: 50%;
+
 }
-.skills-heading h2::first-letter{
+
+.skills-heading h2::first-letter {
   color: var(--orange);
   font-size: 5rem;
- 
+
 }
 
 .skills-icon-container {
@@ -173,11 +177,9 @@ header {
 
 .skills-img-icon {
   width: 170px;
-  height: 170px;  
+  height: 170px;
   border-radius: 50%;
-  background: linear-gradient(90deg, rgba(177,185,179,0.524422268907563) 0%, rgba(80,75,87,0.4095763305322129) 10%, rgba(91,89,86,1) 100%);
-
-
+  background: linear-gradient(90deg, rgba(177, 185, 179, 0.524422268907563) 0%, rgba(80, 75, 87, 0.4095763305322129) 10%, rgba(91, 89, 86, 1) 100%);
 
 }
 
@@ -188,18 +190,21 @@ header {
 }
 
 /* project code */
+
 #project-full-container {
-  display: inline-flex;  
+  display: inline-flex;
   padding-top: 30px;
 }
 
-.project-heading h2{
+.project-heading h2 {
   color: var(--white);
   font-size: 3rem;
   border-bottom: 5px solid var(--orange);
   margin-left: 100px;
+  border-radius: 50%;
 }
-.project-heading h2::first-letter{
+
+.project-heading h2::first-letter {
   color: var(--orange);
   font-size: 5rem;
 }
@@ -218,18 +223,17 @@ header {
 .project-project-box {
   width: 300px;
   height: 350px;
-  /* border: 5px solid rgb(247 223 30); */
   border-radius: 10px;
   margin-left: 50%;
-  background: rgb(177,185,179);
-  background: linear-gradient(90deg, rgba(177,185,179,0.524422268907563) 0%, rgba(80,75,87,0.4095763305322129) 10%, rgba(91,89,86,1) 100%);
-  
+  background: rgb(177, 185, 179);
+  background: linear-gradient(90deg, rgba(177, 185, 179, 0.524422268907563) 0%, rgba(80, 75, 87, 0.4095763305322129) 10%, rgba(91, 89, 86, 1) 100%);
+
 }
-.project-project-box:hover{
+
+.project-project-box:hover {
   transform: rotate(20deg);
 
 }
-
 
 .project-project-box img {
   width: 290px;
@@ -250,16 +254,15 @@ header {
 
 }
 
-.project-container button{
+.project-container button {
   margin: 10px;
   padding: 8px 10px;
   border: none;
   border-radius: 10px;
-  color: var(--white);  
+  color: var(--white);
   font-weight: bold;
   background-color: var(--orange);
 }
-
 
 /* form code */
 .form-container {
@@ -277,51 +280,147 @@ header {
 }
 
 .form-input {
-  padding: 10px;  
-  width: 450px;
+  padding: 10px;
+  width: 35vw;
   height: 40px;
   border-radius: 10px;
   border: none;
- background-color: var(--white);
+  background-color: var(--white);
 
 }
 
 .form-input::placeholder {
   color: var(--orange);
   font-weight: bold;
-  font-size: 18px; 
+  font-size: 18px;
 
 }
-.form-left-div h2{
+
+.form-left-div h2 {
   color: var(--white);
   font-size: 3rem;
   padding-top: 30px;
   border-bottom: 5px solid var(--orange);
+  border-radius: 50%;
+  padding-bottom: 10px;
 }
 
-.form-left-div h2::first-letter{
+.form-left-div h2::first-letter {
   color: var(--orange);
   font-size: 5rem;
 }
 
-input[type="submit"]{
+.form-right-div textarea {
+  height: 50px;
+}
+
+input[type="submit"] {
   background-color: var(--orange);
   color: var(--white);
   font-size: 18px;
   font-weight: bold;
   border: none;
 }
-footer{
+
+input[type="submit"]:hover {
+  background-color: rgb(190, 126, 6);
+}
+
+input[type="submit"]:active {
+  background-color: green;
+}
+
+
+footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  flex-direction: column; 
+  flex-direction: column;
   padding-top: 100px;
   border-radius: 10px;
-  
-  
 }
-.footer-email span{ 
+
+.footer-email span {
   color: var(--orange);
   font-size: 1.5rem;
+}
+
+/* -------responsive----------- */
+
+@media only screen and (max-width: 600px) {
+
+  .computer-img {
+    display: none;
+  }
+
+  .center-div {
+    display: none;
+  }
+
+  .intro-details {
+    position: relative;
+    /* Ensure the pseudo-element is positioned relative to the parent */
+    z-index: 1
+  }
+
+  /* --------skills----------------- */
+  .skills-icon-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .skills-img-icon {
+    border-radius: 0px;
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+  }
+
+  /* ---------project---------------- */
+  .project-heading {
+    width: 300px; 
+  } 
+
+  #project-full-container {
+    display: block;
+  }
+
+  .project-container {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-project-box {
+    margin-left: 10%;
+  }
+
+  /* --------form------------ */
+
+  .form-container {
+    display: block;
+    justify-content: center;
+  }
+
+  .form-right-div {
+    align-items: center;
+  }
+
+  .form-input {
+    width: 60vw;
+  }
+
+  .form-left-div h2 {
+    width: 40vw;
+    margin-bottom: 25px;
+    font-size: larger;
+  }
+
+  .form-left-div h2 {
+    margin-left: 20%;
+
+  }
+
 }
