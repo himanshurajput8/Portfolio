@@ -32,7 +32,7 @@ const  skillsTempelate = `
           <h2>Github</h2>
         </div>
         <div class="skills-img-icon"><img src="https://dineshrout.netlify.app/icons/react.svg">
-          <h2>JavaScript</h2>
+          <h2>React</h2>
         </div>
 
       </div>
