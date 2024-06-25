@@ -30,7 +30,7 @@ const  skillsTempelate = `
         <div class="skills-img-icon"><img src="image/github-logo.svg">
           <h2>Github</h2>
         </div>
-        <div class="skills-img-icon"><img src="image/javascript-logo.svg">
+        <div class="skills-img-icon"><img src="image/react-logo.svg">
           <h2>JavaScript</h2>
         </div>
 

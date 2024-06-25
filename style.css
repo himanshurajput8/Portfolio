@@ -40,7 +40,7 @@ header {
 
 .header-name::first-letter {
   color: var(--orange);
-  font-size: 3rem;
+  font-size: 3rem;  
 }
 
 .header-list {
@@ -224,14 +224,15 @@ header {
   width: 300px;
   height: 350px;
   border-radius: 10px;
-  margin-left: 50%;
-  background: rgb(177, 185, 179);
+  margin-left: 50%;  
+  background: rgb(177, 185, 179);  
   background: linear-gradient(90deg, rgba(177, 185, 179, 0.524422268907563) 0%, rgba(80, 75, 87, 0.4095763305322129) 10%, rgba(91, 89, 86, 1) 100%);
 
 }
 
+
 .project-project-box:hover {
-  transform: rotate(20deg);
+  transform: scale(1.1);
 
 }
 
@@ -263,6 +264,11 @@ header {
   font-weight: bold;
   background-color: var(--orange);
 }
+
+.project-container button:hover{
+  transform: scale(1.1);
+}
+
 
 /* form code */
 .form-container {
@@ -324,6 +330,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: rgb(190, 126, 6);
+  
 }
 
 input[type="submit"]:active {
@@ -344,6 +351,9 @@ footer {
   color: var(--orange);
   font-size: 1.5rem;
 }
+.keyframe-div{
+  display: none;
+}
 
 /* -------responsive----------- */
 
@@ -357,11 +367,6 @@ footer {
     display: none;
   }
 
-  .intro-details {
-    position: relative;
-    /* Ensure the pseudo-element is positioned relative to the parent */
-    z-index: 1
-  }
 
   /* --------skills----------------- */
   .skills-icon-container {
@@ -421,6 +426,36 @@ footer {
   .form-left-div h2 {
     margin-left: 20%;
 
+  }
+  .keyframe-div{
+    display: block;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    text-align: center; 
+    align-items: center; 
+    position: relative;  
+    animation: webDeveloper 5s infinite;   
+    opacity: 0.7;
+  }
+  .keyframe-div h2{
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: bold;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+  }
+  .keyframe-div h2:first-letter{
+    color: orange;
+    font-size: 3rem;
+  }
+  @keyframes webDeveloper {
+    0%   {top: 0px; left: 0px;}
+    25%  {top: 0px; left: 280px; }
+    50%  {top: 300px; left: 280px; }
+    75%  {top: 300px; left: 0px;}
+    100% {top: 0px; left: 0px;}
   }
 
 }

@@ -3,8 +3,11 @@ export function renderIntroduction(){
  const introductionTempelate = `
  
   <div class="container">
+        <div class= "keyframe-div"><h2>Web Developer</h2></div>
+
     <div class="introduction">
       <div class="intro-name">
+    
 
         <span>Hey! This is..</span>
         <span>Himanshu Rajput</span>
