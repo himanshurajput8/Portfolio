@@ -78,7 +78,7 @@ header {
 .introduction {
   display: flex;
   justify-content: space-between;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 
 }
 
@@ -415,12 +415,12 @@ footer {
 
   50% {
     top: 0px;
-    left: 900px;
+    left: 70%;
   }
 
   100% {
     top: 0px;
-    left: 200px;
+    left: 200px; 
   }
 }
 
