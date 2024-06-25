@@ -11,26 +11,27 @@ const  skillsTempelate = `
     </div>
     <div class="skill-container">
       <div class=skills-icon-container>
-        <div class="skills-img-icon"><img src="image/html-logo.svg">
+        <div class="skills-img-icon"><img src="https://dineshrout.netlify.app/icons/html.svg
+">
           <h2>HTML</h2>
         </div>
-        <div class="skills-img-icon"><img src="image/css-logo.svg">
+        <div class="skills-img-icon"><img src="	https://dineshrout.netlify.app/icons/css.svg">
           <h2>CSS</h2>
         </div>
-        <div class="skills-img-icon"><img src="image/javascript-logo.svg">
+        <div class="skills-img-icon"><img src="https://dineshrout.netlify.app/icons/javascript.svg">
           <h2>JavaScript</h2>
         </div>
 
       </div>
 
       <div class=skills-icon-container id="skills">
-        <div class="skills-img-icon"><img src="image/git-logo.svg">
+        <div class="skills-img-icon"><img src="https://dineshrout.netlify.app/icons/git.svg">
           <h2>Git</h2>
         </div>
-        <div class="skills-img-icon"><img src="image/github-logo.svg">
+        <div class="skills-img-icon"><img src="https://dineshrout.netlify.app/icons/github.svg">
           <h2>Github</h2>
         </div>
-        <div class="skills-img-icon"><img src="image/react-logo.svg">
+        <div class="skills-img-icon"><img src="https://dineshrout.netlify.app/icons/react.svg">
           <h2>JavaScript</h2>
         </div>
 

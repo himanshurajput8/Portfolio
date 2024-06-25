@@ -33,13 +33,13 @@ export function renderIntroduction(){
         </div>
       </div>
       <div class="computer-img">
-        <div><img src="image/computer-image1.png"></div>
+        <div class="computer-img1"></div>
       </div>
     </div>
   </div>
 
 `
-document.body.innerHTML += introductionTempelate
+document.body.innerHTML += introductionTempelate 
 }
 
 

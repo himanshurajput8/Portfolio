@@ -40,7 +40,7 @@ header {
 
 .header-name::first-letter {
   color: var(--orange);
-  font-size: 3rem;  
+  font-size: 3rem;
 }
 
 .header-list {
@@ -138,6 +138,16 @@ header {
   color: var(--orange);
 }
 
+.computer-img1{
+  background-image: url(image/computer-image1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+  /* border: solid; */
+  /* margin: 10px; */
+}
+
 /* skills code */
 .skills-heading {
   display: flex;
@@ -220,24 +230,39 @@ header {
 
 }
 
-.project1-img{
-  background-image: url(image/notesapp-img.png) ;
-  background-size: cover; 
-  background-repeat: no-repeat ;  
-  height: 140px; 
-  margin: 10px;
-  
-}
-
-
-.project-project-box { 
-  
+.project-project-box {
   width: 300px;
   height: 350px;
   border-radius: 10px;
-  margin-left: 50%;  
-  background: rgb(177, 185, 179);  
+  margin-left: 50%;
+  background: rgb(177, 185, 179);
   background: linear-gradient(90deg, rgba(177, 185, 179, 0.524422268907563) 0%, rgba(80, 75, 87, 0.4095763305322129) 10%, rgba(91, 89, 86, 1) 100%);
+
+}
+
+.project1-img,
+.project2-img,
+.project3-img,
+.project4-img {
+  background-image: url(image/notesapp-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 140px;
+  margin: 10px;
+}
+
+.project2-img {
+  background-image: url(image/notesapp-img.png);
+
+}
+
+.project3-img {
+  background-image: url(image/notesapp-img.png);
+
+}
+
+.project4-img {
+  background-image: url(image/notesapp-img.png);
 
 }
 
@@ -247,11 +272,6 @@ header {
 
 }
 
-.project-project-box img {
-  width: 290px;
-  height: 160px;
-  padding: 10px;
-}
 
 .project-project-box h3 {
   color: var(--orange);
@@ -276,7 +296,7 @@ header {
   background-color: var(--orange);
 }
 
-.project-container button:hover{
+.project-container button:hover {
   transform: scale(1.1);
 }
 
@@ -341,7 +361,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: rgb(190, 126, 6);
-  
+
 }
 
 input[type="submit"]:active {
@@ -362,7 +382,8 @@ footer {
   color: var(--orange);
   font-size: 1.5rem;
 }
-.keyframe-div{
+
+.keyframe-div {
   display: none;
 }
 
@@ -396,8 +417,8 @@ footer {
 
   /* ---------project---------------- */
   .project-heading {
-    width: 300px; 
-  } 
+    width: 300px;
+  }
 
   #project-full-container {
     display: block;
@@ -438,18 +459,20 @@ footer {
     margin-left: 20%;
 
   }
-  .keyframe-div{
+
+  .keyframe-div {
     display: block;
     width: 100px;
     height: 100px;
     display: flex;
-    text-align: center; 
-    align-items: center; 
-    position: relative;  
-    animation: webDeveloper 5s infinite;   
+    text-align: center;
+    align-items: center;
+    position: relative;
+    animation: webDeveloper 5s infinite;
     opacity: 0.7;
   }
-  .keyframe-div h2{
+
+  .keyframe-div h2 {
     color: white;
     border-radius: 50%;
     padding: 5px;
@@ -457,14 +480,27 @@ footer {
     border-top: 5px solid orange;
     border-bottom: 5px solid orange;
   }
-  .keyframe-div h2:first-letter{
+
+  .keyframe-div h2:first-letter {
     color: orange;
     font-size: 3rem;
   }
+
   @keyframes webDeveloper {
-    0%   {top: 0px; left: 0px;}   
-    50%  {top: 0px; left: 280px; }    
-    100% {top: 0px; left: 0px;}
+    0% {
+      top: 0px;
+      left: 0px;
+    }
+
+    50% {
+      top: 0px;
+      left: 280px;
+    }
+
+    100% {
+      top: 0px;
+      left: 0px;
+    }
   }
 
 }

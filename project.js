@@ -17,7 +17,7 @@ const projectTempelate = `
   </div>
 
 
-  <div class="project-project-box"><img src="image/notesapp-img.png">
+  <div class="project-project-box"> <div class="project2-img"></div>
     <h3>Notesapp</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt</p>
     <a href="https://github.com/himanshurajput8/SuperNotes" target="blank"><button>Github</button></a>
@@ -32,14 +32,14 @@ const projectTempelate = `
 
 </div>
 <div class="project-container container" id="project">
-<div class="project-project-box"><img src="image/notesapp-img.png">
+<div class="project-project-box"> <div class="project3-img"></div>
   <h3>Notesapp</h3>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt</p>
   <a href="https://github.com/himanshurajput8/SuperNotes" target="blank"><button>Github</button></a>
   <a href="https://super-notes-seven.vercel.app/" target="blank"><button>Demo</button></a>
 </div>
 
-<div class="project-project-box"><img src="image/notesapp-img.png">
+<div class="project-project-box"><div class="project4-img"></div>
   <h3>Notesapp</h3>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt </p>
   <a href="https://github.com/himanshurajput8/SuperNotes" target="blank"><button>Github</button></a>
