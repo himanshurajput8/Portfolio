@@ -96,7 +96,7 @@ header {
 .intro-name>:nth-child(1) {
   font-size: 3rem;
   font-weight: 800;
-  color: var(--white);
+  color: var(--white); 
 
 }
 
@@ -410,6 +410,8 @@ footer {
   position: relative;
   animation: webDeveloper 5s infinite; 
   opacity: 0.7;
+ 
+ 
 }
 
 .keyframe-div h2 {
@@ -516,8 +518,12 @@ footer {
   .form-left-div h2 {
     margin-left: 20%;
 
-  }    
-
+  } 
+  .keyframe-div{
+    margin-top: -20px;
+    padding-bottom: 40px;
+  }  
+  
   @keyframes webDeveloper {
     0% {
       top: 0px;
@@ -526,12 +532,12 @@ footer {
 
     50% {
       top: 0px;
-      left: 280px;
+      left: 275px;
     }
 
     100% {
       top: 0px;
-      left: 0px;
+      left: 0px; 
     }
   } 
 
