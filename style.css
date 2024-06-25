@@ -382,8 +382,49 @@ footer {
 }
 
 .keyframe-div {
-  display: none;
+  display: block;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  animation: webDeveloper 5s infinite;
+  opacity: 0.7;
 }
+
+.keyframe-div h2 {
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-weight: bold;
+  border-top: 5px solid orange;
+  border-bottom: 5px solid orange;
+}
+
+.keyframe-div h2:first-letter {
+  color: orange;
+  font-size: 3rem;
+}
+
+@keyframes webDeveloper {
+  0% {
+    top: 0px;
+    left: 200px;
+  }
+
+  50% {
+    top: 0px;
+    left: 900px;
+  }
+
+  100% {
+    top: 0px;
+    left: 200px;
+  }
+}
+
+
 
 /* -------responsive----------- */
 
@@ -456,33 +497,7 @@ footer {
   .form-left-div h2 {
     margin-left: 20%;
 
-  }
-
-  .keyframe-div {
-    display: block;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    position: relative;
-    animation: webDeveloper 5s infinite;
-    opacity: 0.7;
-  }
-
-  .keyframe-div h2 {
-    color: white;
-    border-radius: 50%;
-    padding: 5px;
-    font-weight: bold;
-    border-top: 5px solid orange;
-    border-bottom: 5px solid orange;
-  }
-
-  .keyframe-div h2:first-letter {
-    color: orange;
-    font-size: 3rem;
-  }
+  }    
 
   @keyframes webDeveloper {
     0% {
@@ -499,6 +514,6 @@ footer {
       top: 0px;
       left: 0px;
     }
-  }
+  } 
 
 }
