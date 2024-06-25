@@ -57,6 +57,10 @@ header {
   color: var(--white);
   font-size: 1.5rem;
 }
+.header-list li:hover{
+  color: var(--orange);
+  transition: 0.2s;
+}
 
 .header-btn button {
   background-color: var(--orange);
@@ -72,6 +76,7 @@ header {
 .header-btn button:hover {
   background-color: var(--white);
   color: var(--orange);
+  transition: 0.5s;
 }
 
 /* introduction code */
@@ -114,6 +119,11 @@ header {
   margin-top: 20px;
   color: var(--orange);
   margin: 30px 10px;
+}
+.intro-icon i:hover{
+  color: white;
+  transform: scale(1.3);
+  transition: 0.5s;
 }
 
 .intro-details p {
@@ -195,6 +205,7 @@ header {
 .skills-img-icon:hover {
   border-radius: 5%;
   background-color: var(--orange);
+  transition: 0.8s;
 
 }
 
@@ -268,6 +279,7 @@ header {
 
 .project-project-box:hover {
   transform: scale(1.1);
+  transition: 0.8s;
 
 } 
 
@@ -295,6 +307,8 @@ header {
 
 .project-container button:hover {
   transform: scale(1.1);
+  transition: 0.4s;
+  
 }
 
 
@@ -359,6 +373,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: rgb(190, 126, 6);
+  transition: 0.3s;
 
 }
 
@@ -380,6 +395,10 @@ footer {
   color: var(--orange);
   font-size: 1.5rem;
 }
+.footer-email span:hover {
+  color: white; 
+  transition: 0.5s;
+}
 
 .keyframe-div {
   display: block;
@@ -389,7 +408,7 @@ footer {
   text-align: center;
   align-items: center;
   position: relative;
-  animation: webDeveloper 5s infinite;
+  animation: webDeveloper 5s infinite; 
   opacity: 0.7;
 }
 
