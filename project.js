@@ -9,7 +9,7 @@ const projectTempelate = `
   </span>
 </div>
 <div class="project-container" id="project">
-  <div class="project-project-box"><img src="image/notesapp-img.png">
+  <div class="project-project-box "> <div class="project1-img"></div> 
     <h3>Notesapp</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt</p>
     <a href="https://github.com/himanshurajput8/SuperNotes" target="blank"><button>Github</button></a>

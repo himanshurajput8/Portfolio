@@ -220,7 +220,18 @@ header {
 
 }
 
-.project-project-box {
+.project1-img{
+  background-image: url(image/notesapp-img.png) ;
+  background-size: cover; 
+  background-repeat: no-repeat ;  
+  height: 140px; 
+  margin: 10px;
+  
+}
+
+
+.project-project-box { 
+  
   width: 300px;
   height: 350px;
   border-radius: 10px;
@@ -451,10 +462,8 @@ footer {
     font-size: 3rem;
   }
   @keyframes webDeveloper {
-    0%   {top: 0px; left: 0px;}
-    25%  {top: 0px; left: 280px; }
-    50%  {top: 300px; left: 280px; }
-    75%  {top: 300px; left: 0px;}
+    0%   {top: 0px; left: 0px;}   
+    50%  {top: 0px; left: 280px; }    
     100% {top: 0px; left: 0px;}
   }
 
