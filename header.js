@@ -26,11 +26,11 @@ export function renderHeader() {
          <div class="header-btn"><button>Contact Me</button></div>
        </a>
  
-     </header>
+     </header>  
    </div>
    
     `
-document.body.innerHTML += headerTemplate
+document.body.innerHTML += headerTemplate  
 
 }
 

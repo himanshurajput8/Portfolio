@@ -6,11 +6,11 @@ import { renderProject } from './project.js';
 import { renderForm } from './form.js';
 import { renderFooter } from './footer.js';
 
-(function(){
+(function(){ 
     renderHeader();
-    renderIntroduction();
-    renderSkills();
-    renderProject();
+    renderIntroduction(); 
+    renderSkills(); 
+    renderProject(); 
     renderForm();
     renderFooter();
-})();
+})();  

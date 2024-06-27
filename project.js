@@ -21,7 +21,7 @@ const projectTempelate = `
     <h3>Notesapp</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt</p>
     <a href="https://github.com/himanshurajput8/SuperNotes" target="blank"><button>Github</button></a>
-    <a href="https://super-notes-seven.vercel.app/" target="blank"><button>Demo</button></a>
+    <a href="https://table-grid.vercel.app/" target="blank"><button>Demo</button></a>
 
 
   </div>
