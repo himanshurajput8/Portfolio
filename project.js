@@ -18,8 +18,8 @@ const projectTempelate = `
 
 
   <div class="project-project-box"> <div class="project2-img"></div>
-    <h3>Notesapp</h3>
-    <p>A table with CRUD functionality, sorting and pagination</p>
+    <h3>Table Grid</h3>
+    <p>A Table with CRUD functionality, sorting and pagination</p>
     <a href="https://github.com/himanshurajput8/SuperNotes" target="blank"><button>Github</button></a>
     <a href="https://table-grid.vercel.app/" target="blank"><button>Demo</button></a>
 
