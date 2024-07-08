@@ -143,6 +143,18 @@ header {
   color: var(--orange);
 }
 
+.intro-icon button{
+  background-color: var(--orange);
+  color: var(--white);
+  /* font-size: 18px; */
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+
+}
+
 .computer-img1{
   background-image: url(image/computer-image1.png);
   background-size: cover;
@@ -261,7 +273,7 @@ header {
 }
 
 .project3-img {
-  background-image: url(image/notesapp-img.png);
+  background-image: url(image/job-portal.png);
 
 }
 
@@ -442,7 +454,8 @@ footer {
 
 /* -------responsive----------- */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) { 
+
 
   .computer-img {
     display: none;
@@ -509,12 +522,12 @@ footer {
   }
 
   .form-left-div h2 {
-    margin-left: 20%;
+    margin-left: 20%; 
 
   } 
   .keyframe-div{
     margin-top: -20px;
-    padding-bottom: 40px;
+    padding-bottom: 40px;  
   }  
   
   @keyframes webDeveloper {

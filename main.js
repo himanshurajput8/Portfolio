@@ -14,3 +14,4 @@ import { renderFooter } from './footer.js';
     renderForm();
     renderFooter();
 })();  
+
