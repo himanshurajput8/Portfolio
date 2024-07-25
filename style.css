@@ -19,7 +19,7 @@ body {
 }
 
 .container {  
-  padding: 10px;
+  padding: 10px 20px;
   position: relative;  
   
 }
@@ -465,7 +465,9 @@ footer {
   .center-div {
     display: none;
   }
-
+  .container {  
+    padding: 20px 10px;
+  }
 
   /* --------skills----------------- */
   .skills-icon-container {
