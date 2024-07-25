@@ -11,14 +11,13 @@ const  skillsTempelate = `
     </div>
     <div class="skill-container">
       <div class=skills-icon-container>
-        <div class="skills-img-icon"><img src="https://dineshrout.netlify.app/icons/html.svg
-">
+        <div class="skills-img-icon"><img src="https://dineshrout.netlify.app/icons/html.svg">
           <h2>HTML</h2>
         </div>
         <div class="skills-img-icon"><img src="	https://dineshrout.netlify.app/icons/css.svg">
           <h2>CSS</h2>
         </div>
-        <div class="skills-img-icon"><img src="https://dineshrout.netlify.app/icons/javascript.svg">
+        <div class="skills-img-icon"><img src="https://dineshrout.netlify.app/icons/javascript.svg"> 
           <h2>JavaScript</h2>
         </div>
 

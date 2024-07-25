@@ -10,7 +10,7 @@ export function renderIntroduction(){
 
         <span>Hey! This is..</span>
         <span>Himanshu Rajput</span>
-        <span>Front-end Developer</span>
+        <span>Front-end Developer</span> 
         <span class="intro-details">
           <p>Hi, I'm Himanshu Rajput a graduate from KSVCEM Bijnor. I have a strong passion for web development
             and front-end technologies My mission is to craft outstanding web experience that leave a lasting
@@ -22,7 +22,7 @@ export function renderIntroduction(){
             These skills enable me to create captivating and user-friendly web interface</p>
 
           <p>Let's collaborate, code, and embark on a journey to create web experiences that are truly out of this
-            word. feel free to reach out-together, we'll write a new chapter in the cosmic web</p>
+            word. feel free to reach out-together, we'll write a new chapter in the cosmic web</p> 
         </span>
         <div class="intro-icon">
           <span class="linkdin"><a href="https://www.linkedin.com/in/himanshu-rajput-160161247/" target="blank"><i
