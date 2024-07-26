@@ -2,6 +2,7 @@
   --orange: rgb(255, 165, 0);
   --black: rgb(13, 27, 42);
   --white: rgb(255, 255, 255);
+  --white: rgb(255, 255, 255);
   --blue: rgb(0, 0, 255);
 }
 html{
@@ -16,13 +17,20 @@ html{
 
 body {  
   background-color: #060b23;
+
 }
 .container{
   padding: 0px 10px;
+  background: rgb(177, 185, 179);
+  background: linear-gradient(90deg, rgba(177, 185, 179, 0.524422268907563) 0%, rgba(80, 75, 87, 0.4095763305322129) 10%, rgba(91, 89, 86, 1) 100%);
+
 }
-.introduction-container {  
-  margin-top: 30px;
-  position: relative;  
+.introduction-container  {  
+  padding: 30px 10px;
+  position: relative; 
+  background: rgb(177, 185, 179);
+  background: linear-gradient(90deg, rgba(177, 185, 179, 0.524422268907563) 0%, rgba(80, 75, 87, 0.4095763305322129) 10%, rgba(91, 89, 86, 1) 100%);
+ 
   
 }
 
@@ -30,7 +38,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;  
+  padding-top: 10px;  
 }
 
 .header-name {
