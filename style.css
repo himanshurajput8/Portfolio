@@ -104,6 +104,7 @@ header {
   font-size: 3rem;
   font-weight: 800;
   color: var(--white); 
+  padding-top: 10px;
 }
 
 .intro-name>:nth-child(2) {
