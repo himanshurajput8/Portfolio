@@ -26,17 +26,17 @@ body {
 
 }
 .introduction-container  {  
-  padding: 30px 10px;
+  padding: 10px 10px;
   position: relative; 
   background: rgb(177, 185, 179);
   background: linear-gradient(90deg, rgba(177, 185, 179, 0.524422268907563) 0%, rgba(80, 75, 87, 0.4095763305322129) 10%, rgba(91, 89, 86, 1) 100%);
- 
+  
   
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
   padding-top: 10px;  
 }
@@ -446,17 +446,17 @@ footer {
 
 @keyframes webDeveloper {
   0% {
-    top: 0px;
+    top: 15px;
     left: 200px;
   }
 
   50% {
-    top: 0px;
+    top: 15px;
     left: 70%;
   }
 
   100% {
-    top: 0px;
+    top: 15px;
     left: 200px; 
   }
 }
@@ -545,17 +545,17 @@ footer {
   
   @keyframes webDeveloper {
     0% {
-      top: 0px;
+      top: 20px;
       left: 0px;
     }
 
     50% {
-      top: 0px;
+      top: 20px;
       left: 275px;
     }
 
     100% {
-      top: 0px;
+      top: 20px;
       left: 0px; 
     }
   } 
