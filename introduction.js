@@ -2,7 +2,7 @@
 export function renderIntroduction(){
  const introductionTempelate = `
  
-  <div class="introduction-container">
+  <div class="introduction-container container ">
         <div class= "keyframe-div"><h2>Web Developer</h2></div>
 
     <div class="introduction">
