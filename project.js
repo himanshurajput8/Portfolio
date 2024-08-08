@@ -40,10 +40,10 @@ const projectTempelate = `
 </div>
 
 <div class="project-project-box"><div class="project4-img"></div>
-  <h3>Notesapp</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt </p>
-  <a href="https://github.com/himanshurajput8/SuperNotes" target="blank"><button>Github</button></a>
-  <a href="https://super-notes-seven.vercel.app/" target="blank"><button>Demo</button></a>
+  <h3>Travel Agency</h3>
+  <p>It is a responsive website designed with the features of navigation bar, and hamburger menu.  </p>
+  <a href="https://github.com/himanshurajput8/Travel-Agency" target="blank"><button>Github</button></a>
+  <a href="https://travel-agency-nu-one.vercel.app/" target="blank"><button>Demo</button></a>
 </div>
 
 

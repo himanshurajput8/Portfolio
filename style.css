@@ -5,13 +5,14 @@
   --primary-color: linear-gradient(90deg, rgba(177, 185, 179, 0.524422268907563) 0%, rgba(80, 75, 87, 0.4095763305322129) 10%, rgba(91, 89, 86, 1) 100%);   
   
 }
-.dark-mode{
-  --primary-color: black
+.dark-mode{  
+  --primary-color: black  
 }
 
 html{
  scroll-behavior: smooth;  
-}
+
+}  
 
 * {
   margin: 0px;
@@ -34,7 +35,7 @@ body {
   align-items: center;
   font-size: 20px; 
   border: 2px solid var(--orange) ; 
-  border-radius: 15px; 
+  border-radius: 15px;  
   
 } 
 
@@ -298,12 +299,14 @@ header {
 .project2-img,
 .project3-img,
 .project4-img {
-  background-image: url(image/notesapp-img.png); 
   background-size: cover;
   background-repeat: no-repeat; 
   height: 140px; 
   margin: 10px; ; 
 }
+.project1-img{
+  background-image: url(image/notesapp-img.png); 
+} 
 
 .project2-img {
   background-image: url(image/table-grid.png);
@@ -311,12 +314,12 @@ header {
 }
 
 .project3-img {
-  background-image: url(image/job-portal.png);
+  background-image: url(public/job-portal.png);
 
 }
 
-.project4-img {
-  background-image: url(image/notesapp-img.png);
+.project4-img{
+background-image: url(public/travel-agency-img.png); 
 
 } 
 

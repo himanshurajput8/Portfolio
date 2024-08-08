@@ -13,7 +13,7 @@ export function renderIntroduction(){
         <span>Front-end Developer</span> 
         <span class="intro-details">
           <p>Hi, I'm Himanshu Rajput a graduate from AKTU (Lucknow). I have a strong passion for web development
-            and front-end technologies My mission is to craft outstanding web experience that leave a lasting
+            and front-end technologies My mission is to craft outstanding web experience that leave a lasting 
             impression.</p>
 
           <strong>Skills Constellation</strong>
