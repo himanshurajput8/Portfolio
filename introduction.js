@@ -29,17 +29,17 @@ export function renderIntroduction(){
                 class="fa-brands fa-linkedin"></i></a></span>
           <span><a href="https://github.com/" target="blank"><i class="fa-brands fa-github"></i></a></span>
           <span><i class="fa-brands fa-twitter"></i></span>
-         <a href="/public/Himanshu(Resume).pdf" download><button>Resume  </button></a>
+         <a href="public/himanshu-resume.pdf" download><button>Resume  </button></a>
         </div>
       </div>
       <div class="computer-img">
-        <div class="computer-img1"></div>
+        <div class="computer-img1"></div> 
       </div>
     </div>
   </div>
 
 `
 document.body.innerHTML += introductionTempelate 
-}
+} 
 
 
