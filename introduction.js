@@ -39,7 +39,7 @@ export function renderIntroduction(){
   </div>
 
 `
-document.body.innerHTML += introductionTempelate 
+document.body.innerHTML += introductionTempelate  
 } 
 
 
