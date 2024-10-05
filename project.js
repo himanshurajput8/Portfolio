@@ -1,14 +1,14 @@
-export function  renderProject(){
-const projectTempelate = `
+export function renderProject() {
+  const projectTempelate = `
 
 
-<div class="container" id="project-full-container" id="project">
+<div class="container" id="project-full-container" >
 <div class="project-heading">
   <span>
     <h2>My Project!</h2>
   </span>
 </div>
-<div class="project-container" id="project">
+<div class="project-container" >
   <div class="project-project-box "> <div class="project1-img"></div> 
     <h3>Notesapp</h3>
     <p>A Notes with Quill and Canvas functionality</p>
@@ -22,16 +22,12 @@ const projectTempelate = `
     <p>A Table with CRUD functionality, sorting and pagination</p>
     <a href="https://github.com/himanshurajput8/TableGrid" target="blank"><button>Github</button></a>
     <a href="https://table-grid.vercel.app/" target="blank"><button>Demo</button></a>
-
-
   </div>
-
-
 </div>
 
 
 </div>
-<div class="project-container container" id="project">
+<div class="project-container container " >
 <div class="project-project-box"> <div class="project3-img"></div>
   <h3>Job Portal</h3>
   <p>Your One-stop Destination  For the latest job opportunities! Browse through thousands of job Listings,</p>
@@ -45,12 +41,27 @@ const projectTempelate = `
   <a href="https://github.com/himanshurajput8/Travel-Agency" target="blank"><button>Github</button></a>
   <a href="https://travel-agency-nu-one.vercel.app/" target="blank"><button>Demo</button></a>
 </div>
+</div>
 
+</div>
+<div class="project-container container project5-container" >
+<div class="project-project-box"> <div class="project5-img"></div>
+  <h3>Booking.Com</h3>
+  <p>The goal is to create a user-friendly platform where travelers can explore and book accommodations, flights, and car rentals with ease.</p>
+  <a href="https://github.com/himanshurajput8/Booking.com" target="blank"><button>Github</button></a>
+  <a href="https://booking-com-seven.vercel.app/" target="blank"><button>Demo</button></a>
+</div>
 
+<div class="project-project-box"><div class="project6-img"></div>
+  <h3>Recipe Finder</h3>
+  <p>The Recipe Project is designed to offer a dynamic platform where users can discover, save, and share their favorite recipes. </p>
+  <a href="https://github.com/himanshurajput8/Recipe_Finder" target="blank"><button>Github</button></a>
+  <a href="https://recipe-finder-iota-red.vercel.app/" target="blank"><button>Demo</button></a>
+</div>
 </div>
 
     
     `
-    document.body.innerHTML += projectTempelate
+  document.body.innerHTML += projectTempelate
 }
 

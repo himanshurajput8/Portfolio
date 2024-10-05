@@ -254,7 +254,6 @@ header {
 }
 
 /* project code */
-
 #project-full-container {
   display: inline-flex;
   padding-top: 30px;
@@ -298,7 +297,9 @@ header {
 .project1-img, 
 .project2-img,
 .project3-img,
-.project4-img {
+.project4-img,
+.project5-img,
+.project6-img {
   background-size: cover;
   background-repeat: no-repeat; 
   height: 140px; 
@@ -322,7 +323,15 @@ header {
 background-image: url(public/travel-agency-img.png); 
 
 } 
-
+.project5-img{
+  background-image: url(public/booking.com-img.png);
+}
+.project6-img{
+  background-image: url(public/recipe-finder-img.png);
+}
+.project5-container{
+  padding-left: 25vw;
+}
 .project-project-box:hover {
   transform: scale(1.1);
   transition: 0.8s;
@@ -551,11 +560,17 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
+    padding-top: 8vh;
   }
 
   .project-project-box {
     margin-left: 10%;
   }
+  .project5-container{
+    padding-left: 7vw;
+    /* padding-top: 10vh; */
+  }
+  
 
   /* --------form------------ */
 
@@ -605,4 +620,9 @@ footer {
   } 
 
 }
-
+#project5{
+  padding-left: 40vh;
+}
+#project{
+  border: solid;
+}
