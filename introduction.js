@@ -16,7 +16,7 @@ export function renderIntroduction(){
             and front-end technologies My mission is to craft outstanding web experience that leave a lasting 
             impression.</p>
 
-          <strong>Skills Constellation</strong>
+          <strong> Skills Constellation</strong>
 
           <p> I Possess strong proficiency in front-end technologies including javascript, React.js, HTML, CSS,
             These skills enable me to create captivating and user-friendly web interface</p>
