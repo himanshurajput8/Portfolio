@@ -29,7 +29,7 @@ export function renderIntroduction(){
                 class="fa-brands fa-linkedin"></i></a></span>
           <span><a href="https://github.com/himanshurajput8" target="blank"><i class="fa-brands fa-github"></i></a></span>
           <span><i class="fa-brands fa-twitter"></i></span>
-         <a href="/Himanshu Rajput.pdf" target="_blank"><button>Resume  </button></a>
+         <a href="/himanshu frontend developer-0.pdf" target="_blank"><button>Resume  </button></a>
         </div>
       </div>
       <div class="computer-img">
