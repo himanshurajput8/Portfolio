@@ -15,7 +15,7 @@ const formTempelate = `
 
                      <input type="hidden" name="access_key" value="6a83d070-c2d5-4e89-bef9-1ddf7debc75a"> 
                     <input class="form-input" type="text" name="name" placeholder="Name" required>
-                    <input class="form-input" type="email" name="email" placeholder="E-mail" required>
+                    <input class="form-input" type="email" name="email" placeholder="E-mail" required>              
                     <textarea class="form-input" name="message" placeholder="Message" required></textarea> 
                     <input type="checkbox" name="botcheck" class="hidden" style="display: none;"> 
                     <input  class="form-input" type="submit" value="Submit">   
