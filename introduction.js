@@ -18,7 +18,7 @@ export function renderIntroduction(){
 
           <strong> Skills Constellation</strong>
 
-          <p>I Possess strong proficiency in front-end technologies including javascript, React.js, HTML, CSS,
+          <p> I Possess strong proficiency in front-end technologies including javascript, React.js, HTML, CSS,
             These skills enable me to create captivating and user-friendly web interface</p>
 
           <p>Let's collaborate, code, and embark on a journey to create web experiences that are truly out of this
