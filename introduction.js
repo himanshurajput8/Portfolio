@@ -9,7 +9,7 @@ export function renderIntroduction(){
       <div class="intro-name">    
 
         <span>Hey! This is..</span>
-        <span> Himanshu Rajput</span>
+        <span>Himanshu Rajput</span>
         <span>Front-end Developer</span> 
         
         <span class="intro-details">
