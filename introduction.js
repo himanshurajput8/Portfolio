@@ -19,7 +19,7 @@ export function renderIntroduction(){
 
           <strong><b>Skills Constellation</b></strong>
 
-          <p>I Possess strong proficiency in front-end technologies including javascript, React.js, HTML, CSS,
+          <p> I Possess strong proficiency in front-end technologies including javascript, React.js, HTML, CSS,
             These skills enable me to create captivating and user-friendly web interface</p>
 
           <p>Let's collaborate, code, and embark on a journey to create web experiences that are truly out of this
@@ -33,7 +33,7 @@ export function renderIntroduction(){
          <a href="/public/Himanshu" target="_blank"><button>Resume  </button></a>
         </div>
       </div>
-      <div class="computer-img">
+      <div class="computer-img"> 
         <div class="computer-img1"></div> 
       </div>
     </div>
