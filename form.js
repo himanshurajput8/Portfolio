@@ -5,7 +5,7 @@ const formTempelate = `
         <div class="form-left-div">
             <div id="form-container">
                 <span>
-                    <h2>Contact Me !</h2>
+                    <h2>Contact Me !</h2> 
                 </span>
             </div>
         </div>
